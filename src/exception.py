@@ -15,3 +15,7 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+    
+
+    # Q : Why is the exception message no tstored in the log folder ?
+    # Ans : It is because the logger file is not imported,so we did from src.logger import logging, now we can see the exception messages. 
