@@ -11,6 +11,9 @@ from dataclasses import dataclass
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
 
+from src.components.model_trainer import ModelTrainerConfig
+from src.components.model_trainer import ModelTrainer
+
 # We need to take the input and store the input data at some path. For that we need to define a class
 @dataclass  # decorator
 class DataIngestionConfig:
@@ -25,7 +28,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
         try : 
-            df = pd.read_csv('notebook\data\stud.csv')  # Reading of data from csv, apis , mongodb or anuthing else
+            df = pd.read_csv(r'notebook\data\stud.csv')  # Reading of data from csv, apis , mongodb or anuthing else
             logging.info('Read the data as dataframe')
 
             os.makedirs((os.path.dirname(self.ingestion_config.train_data_path)),exist_ok=True)
@@ -55,5 +58,5 @@ if __name__=="__main__":
     data_transformation=DataTransformation()
     train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
 
-    # modeltrainer=ModelTrainer()
-    # print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
