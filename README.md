@@ -1,9 +1,9 @@
-## End to end Machine Learning project
+# End to end Machine Learning project
 
 Hi there, We are going to implement an end to end Machine learning project with flask api. The title of the project is Student Performance Indicator.
 The Student Performance Indicator is an end-to-end machine learning project designed to predict students' math scores based on various features related to their backgrounds and academic achievements. By leveraging the student performance dataset, the project aims to identify key factors that influence a student's performance in mathematics.
 
-# Dataset Features:
+## Dataset Features:
 
 Gender: The gender of the student.
 Race/Ethnicity: The racial and ethnic background of the student.
@@ -14,10 +14,10 @@ Writing Score: The writing score of the student.
 Target Feature - Math Score: The math score of the student, which is the primary variable we aim to predict.
 By analyzing these features, the project develops a predictive model to estimate a student's math score, providing insights into the educational and personal factors that most significantly impact mathematical performance.
 
-# Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
+## Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
 The data consists of 8 column and 1000 rows.
 
-# Motivation:
+## Motivation:
 The motivation for building this project is to make people understand how machine learning (ML) is applied in real-world problems and to highlight the importance of ML in real-world applications. Through this project, I aim to demonstrate the practical value of ML in educational settings and its potential to drive data-driven insights and improvements.
 
 
