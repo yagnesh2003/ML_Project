@@ -25,7 +25,7 @@ The motivation for building this project is to make people understand how machin
 * Languages Used: Python, HTML, CSS
 * Framework Used: Flask
 * Libraries Used: numpy, pandas, sklearn
-* Additional Features: Logging and error handling with custom exception handling
+* Additional Features: Logging and error handling with custom exception 
 ## Project Structure
 I have created a virtual environment in VS Code with a structured folder system to ensure easy navigation and understanding. Here is a brief overview of each folder and file:
 
