@@ -14,7 +14,8 @@ The dataset includes the following features:
 * Target Feature - Math Score: The math score of the student, which is the primary variable we aim to predict.
 By analyzing these features, the project develops a predictive model to estimate a student's math score, providing insights into the educational and personal factors that most significantly impact mathematical performance.
 
-## Dataset Source: Kaggle - Student Performance in Exams
+## Dataset Source:
+https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
 
 The dataset consists of 8 columns and 1000 rows.
 ## Motivation
